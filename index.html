@@ -13,70 +13,71 @@
 <body background="https://media.istockphoto.com/id/536754333/vector/very-complicated-math-formula-on-blackboard.jpg?s=612x612&w=0&k=20&c=_ynD7iJIaB4nDY9TLw55A_jnV0143Z3rLwFyaI-Yd3o=">
     <div class="container">
         <div class="calculator">
-            <div class="output">
-                <h2>Output</h2>
+            <div class = "screen">
+                <div class="output">
+                </div>
             </div>
             <div class="row1">
-                <button class="AC" onclick="clear()">
+                <button class="AC" onclick="clearAll()">
                     <p>AC</p>
                 </button>
                 <button class="op">
                     <p>+/-</p>
                 </button>
-                <button class="percent">
+                <button class="percent" onclick="showInput('%')">
                     <p>%</p>
                 </button>
-                <button class="division">
+                <button class="division" onclick="showInput('/')">
                     <p>/</p>
                 </button>
             </div>
             <div class="row2">
-                <button class="seven">
+                <button class="seven" onclick="showInput('7')">
                     <p>7</p>
                 </button>
-                <button class="eight">
+                <button class="eight" onclick="showInput('8')">
                     <p>8</p>
                 </button>
-                <button class="nine">
+                <button class="nine" onclick="showInput('9')">
                     <p>9</p>
                 </button>
-                <button class="multiply">
+                <button class="multiply" onclick="showInput('X')">
                     <p>X</p>
                 </button>
             </div>
             <div class="row3">
-                <button class="four">
+                <button class="four" onclick="showInput('4')">
                     <p>4</p>
                 </button>
-                <button class="five">
+                <button class="five" onclick="showInput('5')">
                     <p>5</p>
                 </button>
-                <button class="six">
+                <button class="six" onclick="showInput('6')">
                     <p>6</p>
                 </button>
-                <button class="subtract">
+                <button class="subtract" onclick="showInput('-')">
                     <p>-</p>
                 </button>
             </div>
             <div class="row4">
-                <button class="one">
+                <button class="one" onclick="showInput('1')">
                     <p>1</p>
                 </button>
-                <button class="two">
+                <button class="two" onclick="showInput('2')">
                     <p>2</p>
                 </button>
-                <button class="three">
+                <button class="three" onclick="showInput('3')">
                     <p>3</p>
                 </button>
-                <button class="add">
+                <button class="add" onclick="showInput('+')">
                     <p>+</p>
                 </button>
             </div>
             <div class="row5">
-                <button class="zero">
+                <button class="zero" onclick="showInput('0')">
                     <p>0</p>
                 </button>
-                <button class="dot">
+                <button class="dot" onclick="showInput('.')">
                     <p>.</p>
                 </button>
                 <button class="equal">

@@ -25,16 +25,14 @@ html {
     justify-content: space-between;
 }
 
-
-.output {
-    background-color: #5A5A5A;
-    margin: 25px;
+.screen {
+    border-style: solid;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
-}
-.output h2 {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    padding-left: 10px;
+    background-color: #5A5A5A;
+    height: 80px;
 }
 
 

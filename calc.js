@@ -1,5 +1,15 @@
-function clear() {
-    const output = document.querySelector(".output");
+function clearAll() {
+    const blah = document.querySelector(".output");
 
-    output.innerHTML = "";
+    blah.innerHTML = "";
+}
+
+function showInput(input) {
+    const screen = document.querySelector(".output");
+    const output = document.createElement('p');
+    output.textContent = input;
+
+    clearAll();
+
+    screen.appendChild(output);
 }

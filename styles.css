@@ -77,6 +77,16 @@ button:hover{
     width: 200px;
 }
 
+@media (max-width: 576px) {
+    .calculator {
+        width: 75%;
+    }
+
+    .clickables p{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
 
 
 
